@@ -1,16 +1,15 @@
 html, body {
-  background: #1A1A1A;
+  background: #D6D9DF;
 }
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Cabin', sans-serif;
 }
 h1 {
   font-family: Work Sans;
   font-style: normal;
   font-weight: normal;
-  line-height: 76px;
-  font-size: 66px;
-  text-align: center;
+  line-height: .8;
+  font-size: 96px;
   color: #FFFFFF;
   margin: 0px;
 }
@@ -20,15 +19,12 @@ h2 {
   font-weight: normal;
   line-height: normal;
   font-size: 16px;
-  text-align: center;
   color: #626262;
-  text-transform: uppercase;
   margin: 0px;
 }
 
 #navigation {
   width: 100%;
-  background: #212121;
   padding: 2em;
 }
 
@@ -111,7 +107,6 @@ a:hover {
   margin-bottom: 16px;
 }
 #footer {
-  background: #626262;
   width: 100%;
   margin-top: 4em;
   padding-top: 8em;
@@ -135,4 +130,39 @@ ul, li {
   color: #c7c7c7;
   display: block;
   width: 100%;
+}
+
+.designer-image {
+  background-image: url('../images/sam-pecard.jpg');
+  background-size: cover;
+  background-color: #2A2E34;
+  height: 100vh;
+  width: 100%;
+  text-align: right;
+  padding: 2.5em;
+}
+.designer-image h1 {
+  font-weight: bold;
+  line-height: 1;
+  margin: 0px;
+  padding: 0px;
+}
+.designer-image h2 {
+  font-family: Cabin;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+p.feature-line {
+  font-family: Cabin;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  font-size: 18px;
+  color: #2A2E34;
+}
+.padding-25em {
+  padding: 0em 8em 0em 2.5em !important;
 }
